@@ -1,10 +1,12 @@
 import React from "react";
+import Splash from "../components/splash";
+import { View } from "react-native";
 
 const FrontendScreen = () => {
     return(
-        <div>
-            FrontendScreen
-        </div>
+        <View>
+            <Splash/>
+        </View>
     );
 };
 
